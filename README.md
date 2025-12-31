@@ -2,10 +2,10 @@
 
 Candidato: Pedro Henrique Barroso
 
-Sistema Operacional Utilizado: Linux
-Linguagem de Programação Utilizada: Python, SQL 
-Bibliotecas Utilizadas: Pandas, Numpy, soda-Cora
-Base de Dados utilizada: Yellow Taxi Trip Records- (PARQUET)
+- Sistema Operacional Utilizado: Linux
+- Linguagem de Programação Utilizada: Python, SQL 
+- Bibliotecas Utilizadas: Pandas, Numpy, soda-Cora
+- Base de Dados utilizada: Yellow Taxi Trip Records- (PARQUET) Link: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## Etapas do Processo Seletivo
 
