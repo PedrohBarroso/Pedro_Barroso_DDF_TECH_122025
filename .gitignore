@@ -4,5 +4,8 @@ venv/
 .venv/
 env/
 
-
+# Arquivo de configuração do requirements
 requirements.in
+
+# Dataset utilizado (Não inclui-lo por ser muito pesado)
+dataset/yellow_tripdata_2025-01.parquet
