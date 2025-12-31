@@ -3,3 +3,6 @@ venv/
 .env/
 .venv/
 env/
+
+
+requirements.in
