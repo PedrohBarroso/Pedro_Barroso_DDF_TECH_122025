@@ -40,7 +40,7 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
                         Excelente 
                         e Bônus.
 
-    O grupo Mínimo aborda as tarefas mínimas para serem avaliadas, o intermediário aborda as tarefas mínimas + a intermediária e assim, subsequente, até o bônus. *
+    O grupo Mínimo aborda as tarefas mínimas para serem avaliadas, o intermediário aborda as tarefas mínimas + a intermediária e assim, subsequente, até o bônus.*
 
 **Ferramenta Utilizada:** Jira
 **Estrutura Criada:** Grupos (Mínimo, Intermediário, Avançado, Excelente, Bônus)
@@ -62,7 +62,7 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 **Dataset Inicial:** `product-search-corpus` (JSONL, semiestruturado)
 **Desafio Identificado:** Complexidade de ETL incompatível com o prazo
 **Dataset Escolhido:** `Yellow-Taxi-Trip_NY` (Parquet, bem estruturado)
-**Insight Chave:** "Ao insistir em um dataset inviável... pode-se considerar um erro grave de gestão de projetos."
+> **Insight Chave:** "Ao insistir em um dataset inviável... pode-se considerar um erro grave de gestão de projetos."
 
 ---
 
@@ -82,7 +82,7 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 **Ação 1:** Script Python para conversão de Parquet para CSV (limite: 101k registros)
 **Ação 2:** Importação do CSV para Google Sheets
 **Problema Identificado (Futuro):** Formatação automática do Sheets alterou tipos de dados (ex: FLOAT → VARCHAR)
-**Análise Inicial:** Realizada no catálogo da plataforma após ingestão via pipeline
+> **Análise Inicial:** Realizada no catálogo da plataforma após ingestão via pipeline
 
 ---
 
@@ -99,16 +99,16 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 **Ação 1:** Estudar e aplicar o framework soda.Scan
 **Ação 2:** Após identificado conflitos de dependencia, foi utilizado a biblioteca pandas
 **Problema Identificado (Futuro):** Conflito no ambiente local por conta de dependencias lógicas das bibliotecas pip e soda.Scan
-**Análise Inicial:** Utilizar a biblioteca pandas através dos comandos df.describe() e df.info()
-**Análise Posterior:** Conforme resultado positivo apartir da análise via pandas, foi-se descartado a possibilidade de execução do código em ambiente de cloud, como o google colab.
-**Principal Insight:** Na próxima vez, utilizar um ambiente de cloud como o Google Colab, facilita e mitiga falhas em ambientes locais. 
+> **Análise Inicial:** Utilizar a biblioteca pandas através dos comandos df.describe() e df.info()
+> **Análise Posterior:** Conforme resultado positivo apartir da análise via pandas, foi-se descartado a possibilidade de execução do código em ambiente de cloud, como o google colab.
+> **Principal Insight:** Na próxima vez, utilizar um ambiente de cloud como o Google Colab, facilita e mitiga falhas em ambientes locais. 
 
 ---
 
 ### Etapa 7 - Analisar os Dados na Plataforma
 > **Contexto & Decisão:** Contornei problemas de qualidade de dados herdados usando SQL no Metabase, focando em gerar valor a partir de dados imperfeitos.
 
-*A próxima etapa, embora não siga uma sequência lógica exata, ela faz parte dos requisitos mínimos do teste.
+*   A próxima etapa, embora não siga uma sequência lógica exata, ela faz parte dos requisitos mínimos do teste.
 
     na etapa 7, foi utilizado o Módulo de "Visualização" dos dados, nele, somos redirecionados para a plataforma de BI e visualização de dados Metabase.
 
@@ -125,7 +125,7 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 **Ferramenta:** Módulo de Visualização (Metabase)
 **Problema Herdado:** Dados chegando como texto (VARCHAR)
 **Solução Técnica:** Query SQL com `TRY_TO_DOUBLE`, `TO_DATE`, `LEFT`, filtros `WHERE`
-**Resultado Final:** Tabela de indicadores executivos com "Receita Total", "Distância Média", "Volume de viagens"
-**Principal Insight:** "Nem sempre teremos o cenário perfeito... saber lidar com cada dificuldade... faz total diferença."
+> **Resultado Final:** Tabela de indicadores executivos com "Receita Total", "Distância Média", "Volume de viagens"
+> **Principal Insight:** "Nem sempre teremos o cenário perfeito... saber lidar com cada dificuldade... faz total diferença."
 
 ---
