@@ -28,7 +28,7 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 ### Etapa 0 - Organização e Planejamento
 > **Contexto & Decisão:** Com um prazo de 7 dias, o planejamento foi fundamental para uma entrega consistente.
 
-*Com o prazo de 7 dias para entrega do case técnico, planejamento e organização são fundamentais para uma entrega completa, consistente e de qualidade.
+* Com o prazo de 7 dias para entrega do case técnico, planejamento e organização são fundamentais para uma entrega completa, consistente e de qualidade.
 
     Para isso, eu criei um quadro no Jira, neste quadro, eu dividi as tarefas a serem entregues em grupos e subgrupos. Cada grupo, contem um ou mais subgrupos. 
     
@@ -40,7 +40,7 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
                         Excelente 
                         e Bônus.
 
-    O grupo Mínimo aborda as tarefas mínimas para serem avaliadas, o intermediário aborda as tarefas mínimas + a intermediária e assim, subsequente, até o bônus.*
+    O grupo Mínimo aborda as tarefas mínimas para serem avaliadas, o intermediário aborda as tarefas mínimas + a intermediária e assim, subsequente, até o bônus. *
 
 **Ferramenta Utilizada:** Jira
 **Estrutura Criada:** Grupos (Mínimo, Intermediário, Avançado, Excelente, Bônus)
