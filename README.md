@@ -42,9 +42,9 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 
     O grupo Mínimo aborda as tarefas mínimas para serem avaliadas, o intermediário aborda as tarefas mínimas + a intermediária e assim, subsequente, até o bônus.*
 
-**Ferramenta Utilizada:** Jira
-**Estrutura Criada:** Grupos (Mínimo, Intermediário, Avançado, Excelente, Bônus)
-**Artefatos Gerados:** Quadro de tarefas (disponível na pasta `/docs`)
+- **Ferramenta Utilizada:** Jira
+- **Estrutura Criada:** Grupos (Mínimo, Intermediário, Avançado, Excelente, Bônus)
+- **Artefatos Gerados:** Quadro de tarefas (disponível na pasta `/docs`)
 
 ---
 
@@ -59,17 +59,17 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
     
     Vale ressaltar que ao insistir em um dataset inviável ou com um custo de transformação maior para o tempo e cronograma proposto, pode-se considerar um erro grave de gestão de projetos.*
 
-**Dataset Inicial:** `product-search-corpus` (JSONL, semiestruturado)
-**Desafio Identificado:** Complexidade de ETL incompatível com o prazo
-**Dataset Escolhido:** `Yellow-Taxi-Trip_NY` (Parquet, bem estruturado)
-> **Insight Chave:** "Ao insistir em um dataset inviável... pode-se considerar um erro grave de gestão de projetos."
+- **Dataset Inicial:** `product-search-corpus` (JSONL, semiestruturado)
+- **Desafio Identificado:** Complexidade de ETL incompatível com o prazo
+- **Dataset Escolhido:** `Yellow-Taxi-Trip_NY` (Parquet, bem estruturado)
+- **Insight Chave:** "Ao insistir em um dataset inviável... pode-se considerar um erro grave de gestão de projetos."
 
 ---
 
 ### Etapa 2 - Integrar e Pré-analisar os Dados
 > **Contexto & Decisão:** Utilizei um script Python para conversão e o Google Sheets para integração inicial, o que gerou um aprendizado posterior sobre integridade de dados.
 
-*	Inicialmente, para realizar o processo de integrar e pré-analisar os dados escolhidos na plataforma Dadosfera, foi construído um script em python para converter os dados do tipo .Parquet para o tipo .CSV.
+*   Inicialmente, para realizar o processo de integrar e pré-analisar os dados escolhidos na plataforma Dadosfera, foi construído um script em python para converter os dados do tipo .Parquet para o tipo .CSV.
 
     No script, disponível na pasta de dataset, eu inicialmente limitei o arquivo à 101 mil registros e transformei a base de dados em um dataframe utilizando a biblioteca pandas, após, eu converti o dataframe para .csv e exportei o arquivo .csv.
 
@@ -79,10 +79,10 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 
     A pré-analise dos dados ocorreu dentro da plataforma da Dadosfera, no próprio módulo de Catalogo, após a execução da Pipeline para ingestão dos dados na plataforma, é criado um catalogo sobre estes dados, neste módulo de catalogo, é possível realizar a etapa de análise descritiva dos dados, como identificar o número de linhas, o número de colunas, quais são as colunas, o tipo das colunas, uma prévia dos dados de cada coluna, além disso pode-se gerar um conjunto de relatórios automaticamente sobre estes dados e analisar a tabela (Será informado na etapa de análise, como ocorreu esta análise).*
 
-**Ação 1:** Script Python para conversão de Parquet para CSV (limite: 101k registros)
-**Ação 2:** Importação do CSV para Google Sheets
-**Problema Identificado (Futuro):** Formatação automática do Sheets alterou tipos de dados (ex: FLOAT → VARCHAR)
-> **Análise Inicial:** Realizada no catálogo da plataforma após ingestão via pipeline
+- **Ação 1:** Script Python para conversão de Parquet para CSV (limite: 101k registros)
+- **Ação 2:** Importação do CSV para Google Sheets
+- **Problema Identificado (Futuro):** Formatação automática do Sheets alterou tipos de dados (ex: FLOAT → VARCHAR)
+- **Análise Inicial:** Realizada no catálogo da plataforma após ingestão via pipeline
 
 ---
 
@@ -96,12 +96,12 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
     
     É válido destacar que após resultados e identificações de inconsistencias dos dados via pandas, foi-se descartado a possibilidade de uso de ambientes de cloud, como o google colab. Foi uma decisão de projeto para mitigar o tempo e a solução entregue, fator importante em um projeto de software.*
 
-**Ação 1:** Estudar e aplicar o framework soda.Scan
-**Ação 2:** Após identificado conflitos de dependencia, foi utilizado a biblioteca pandas
-**Problema Identificado (Futuro):** Conflito no ambiente local por conta de dependencias lógicas das bibliotecas pip e soda.Scan
-> **Análise Inicial:** Utilizar a biblioteca pandas através dos comandos df.describe() e df.info()
-> **Análise Posterior:** Conforme resultado positivo apartir da análise via pandas, foi-se descartado a possibilidade de execução do código em ambiente de cloud, como o google colab.
-> **Principal Insight:** Na próxima vez, utilizar um ambiente de cloud como o Google Colab, facilita e mitiga falhas em ambientes locais. 
+- **Ação 1:** Estudar e aplicar o framework soda.Scan
+- **Ação 2:** Após identificado conflitos de dependencia, foi utilizado a biblioteca pandas
+- **Problema Identificado (Futuro):** Conflito no ambiente local por conta de dependencias lógicas das bibliotecas pip e soda.Scan
+- **Análise Inicial:** Utilizar a biblioteca pandas através dos comandos df.describe() e df.info()
+- **Análise Posterior:** Conforme resultado positivo apartir da análise via pandas, foi-se descartado a possibilidade de execução do código em ambiente de cloud, como o google colab.
+- **Principal Insight:** Na próxima vez, utilizar um ambiente de cloud como o Google Colab, facilita e mitiga falhas em ambientes locais. 
 
 ---
 
@@ -122,10 +122,10 @@ O objetivo é percorrer todo o ciclo de vida dos dados. Abaixo, a lista completa
 
     A entrega desta etapa não é exatamente diversos gráficos e uma dashboard bonita, mas o resultado que perseverãnça, resiliencia e proatividade em busca de uma solução fazem a diferença.*
 
-**Ferramenta:** Módulo de Visualização (Metabase)
-**Problema Herdado:** Dados chegando como texto (VARCHAR)
-**Solução Técnica:** Query SQL com `TRY_TO_DOUBLE`, `TO_DATE`, `LEFT`, filtros `WHERE`
-> **Resultado Final:** Tabela de indicadores executivos com "Receita Total", "Distância Média", "Volume de viagens"
-> **Principal Insight:** "Nem sempre teremos o cenário perfeito... saber lidar com cada dificuldade... faz total diferença."
+- **Ferramenta:** Módulo de Visualização (Metabase)
+- **Problema Herdado:** Dados chegando como texto (VARCHAR)
+- **Solução Técnica:** Query SQL com `TRY_TO_DOUBLE`, `TO_DATE`, `LEFT`, filtros `WHERE`
+- **Resultado Final:** Tabela de indicadores executivos com "Receita Total", "Distância Média", "Volume de viagens"
+- **Principal Insight:** "Nem sempre teremos o cenário perfeito... saber lidar com cada dificuldade... faz total diferença."
 
 ---
