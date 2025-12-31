@@ -9,3 +9,6 @@ requirements.in
 
 # Dataset utilizado (Não inclui-lo por ser muito pesado)
 dataset/yellow_tripdata_2025-01.parquet
+
+# Checkpoint do Jupyter
+.ipynb_checkpoints
