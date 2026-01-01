@@ -21,3 +21,4 @@
 * [Print: Adequação CDM](codigo_adequacao_cdm.png)
 * [Print: Output df.info()](codigo_df-info.png)
 * [Print: Output df.describe()](codigo_df-describe.png)
+* [Print: Erro por conflito de versão no Google Colab](erro_versao_colab.png)
