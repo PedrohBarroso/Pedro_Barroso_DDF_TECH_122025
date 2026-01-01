@@ -4,7 +4,7 @@
 
 ### Relato do Candidato
 
-	*    Para utilização de uma biblioteca robusta sobre análise e qualidade dos dados, eu tentei implementar o framework Soda para validação de Data Quality. Porém, mais uma vez, enfrentei um novo obstáculo, conflitos de dependências no pip e restrições lógicas no meu ambiente local impediram a plena execução da ferramenta.
+*    Para utilização de uma biblioteca robusta sobre análise e qualidade dos dados, eu tentei implementar o framework Soda para validação de Data Quality. Porém, mais uma vez, enfrentei um novo obstáculo, conflitos de dependências no pip e restrições lógicas no meu ambiente local impediram a plena execução da ferramenta.
 
     Porém, mais uma vez, eu não me deixei abater, assim como um bom profissional não fica apegado à ferramenta, eu recorri a biblioteca Pandas para tentar identificar possíveis problemas ou inconsistências nos dados. Eu executei os comandos (df.info() e df.describe()), provando que conheço da teoria e sei o que se deve validar ou identificar, independente da ferramenta ou biblioteca utilizada. Eu identifiquei valores negativos e inconsistências nos dados.
     
