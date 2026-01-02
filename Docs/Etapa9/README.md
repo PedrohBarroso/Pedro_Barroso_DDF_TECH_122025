@@ -10,9 +10,7 @@
     
     Ao longo do desenvolvimento, esbarrei em um problema técnico enfrentado anteriormente e recorrente na engenharia de dados **"integridade e qualidade de dados"**, assim como ocorrido anteriormente, o dataset estava com problemas de consistência e tipagem dos dados. Diferente do SQL aplicado no ambiente da Dadosfera + Metabase, busquei uma alternativa de filtrar e pré-processar estes dados via Pandas e Python. Como são linguagens e frameworks que me permite maior liberdade, conhecimento e segurança, a minha decisão foi de exclusão de todos os dados inconsistentes ou corrompidos, ao invés de trata-los, eu optei por esta abordagem agressiva para ter um parametro de diferença no volume de dados. O resultado foi uma base de aproximadamente 26 mil registros "puros" e completamente confiáveis.  
     
----
-    
-* Além disso, eu priorizei a **"protabilidade"** do projeto. tentei estruturar o projeto para que ele funcione de forma autonôma, para isto utilizei de caminhos relativos e uma estrutura de diretórios organizada. Desta forma, garanto que qualquer pessoa consiga clonar o repositório e rodar a aplicação.
+    Além disso, eu priorizei a **"protabilidade"** do projeto. tentei estruturar o projeto para que ele funcione de forma autonôma, para isto utilizei de caminhos relativos e uma estrutura de diretórios organizada. Desta forma, garanto que qualquer pessoa consiga clonar o repositório e rodar a aplicação.
 
 > **Observação:** Para o pleno funcionamento deste DatAapp, da forma com que ele foi pensado e estruturado, é muito importante que você leia e acompanhe o [README](./dataapp/README.md), nele, está contido todo o passo-a-passo de instalação e execução deste DataApp
 
