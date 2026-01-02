@@ -3,6 +3,7 @@
 > **Contexto & Decisão:** Contornei problemas de qualidade de dados herdados usando SQL no Metabase, focando em gerar valor a partir de dados imperfeitos.
 
 ### Relato Pessoal
+
 *      A próxima etapa, embora não siga uma sequência lógica exata, faz parte dos requisitos mínimos do teste.
 
        Na etapa 7, foi utilizado o Módulo de "Visualização" dos dados, nele, somos redirecionados para a plataforma de BI e visualização de dados Metabase. Foi nesta etapa que a "ajuda" do Google Sheets foi realmente afetada, pois, é nítido que caso, os dados obtidos possuam inconsistências ou falhas graves, como a alteração dos tipos das variáveis, acarretará em gráficos inconsistentes ou problemas na geração de gráficos com maior qualidade.
