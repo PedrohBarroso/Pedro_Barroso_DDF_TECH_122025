@@ -1,11 +1,20 @@
+import os
 import pandas as pd
 
 # Define o limite
 LIMITE = 101000
 
-print("Carregando arquivo...")
-# O Pandas carrega o arquivo e o .head() seleciona apenas as primeiras linhas
-df = pd.read_parquet('~/Documentos/case_tecnico/dataset/yellow_tripdata_2025-01.parquet')
+# Detecta o diretório onde o arquivo atual (.py ou .ipynb) está
+diretorio_atual = os.getcwd() 
+
+# Se o arquivo estiver dentro de Docs/Etapa2/, precisamos subir 2 níveis para chegar na raiz
+raiz_do_projeto = os.path.abspath(os.path.join(diretorio_atual, "..", ".."))
+
+# Agora, para acessar o dataset, você monta o caminho assim:
+caminho_dataset = os.path.join(raiz_do_projeto, "dataset", "yellow_trip.csv")
+
+# Carregamento seguro
+df = pd.read_csv(caminho_dataset)
 df_limitado = df.head(LIMITE)
 
 print(f"Salvando {LIMITE} registros em CSV...")

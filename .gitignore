@@ -12,3 +12,6 @@ dataset/yellow_tripdata_2025-01.parquet
 
 # Checkpoint do Jupyter
 .ipynb_checkpoints
+
+# Arquivo de configuração do requirements (DataApp)
+Docs/Etapa9/dataap/requirements.in

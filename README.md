@@ -12,8 +12,8 @@ Este repositório contém a **Prova de Conceito (PoC)** do ciclo de vida de dado
 ---
 
 ## 🗺️ Status das Etapas
-- ✅ **Mínimo Avaliado:** Etapas 0, 1, 2, 3, 4 e 7 *(Concluídas)*
-- ⏳ **Próximos Passos:** Etapas 5, 6, 8, 9 e 10 *(Pipeline, IA e DataApp)*
+- ✅ **Mínimo Avaliado:** Etapas 0, 1, 2, 3, 4, 7 e 9 *(Concluídas)*
+- ⏳ **Próximos Passos:** Etapas 5, 6, 8 e 10 *(Pipeline e IA)*
 
 ---
 
@@ -40,6 +40,10 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 * **Destaque:** Camada Gold construída via **SQL Nativo**.
 * **Solução:** Uso de `TRY_TO_DOUBLE` e `TO_DATE` para sanitarização e geração de KPIs financeiros.
 
+### [📁 Etapa 9: Desenvolvimento de um DataApp](Docs/Etapa9/README.md)
+* **Destaque:** Desenvolvimento de um DataApp interativo e **portável** via **Streamlit**.
+* **Solução:** Criação de um dashboard interativo sobre KPIs relacionados a receita, volume de viagens e distância média entre viagens.
+
 ---
 
 ## 💡 Principais Aprendizados Técnicos
@@ -53,3 +57,4 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 1. Os scripts de conversão estão em `Docs/Etapa2/`.
 2. As queries de visualização estão documentadas em `Docs/Etapa7/`.
 3. O Notebook de análise exploratória encontra-se em `Docs/Etapa3_Etapa4/`.
+4. As instruções para execução localmente do DataApp estão disponíveis em `Docs/Etapa9/dataapp/`.
