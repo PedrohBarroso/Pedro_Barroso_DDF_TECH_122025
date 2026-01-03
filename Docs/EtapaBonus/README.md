@@ -16,7 +16,7 @@ Transformei as colunas de "distância" e "faturamento" em argumentos de venda. S
 * **Manipulação de Imagens:** Uso de `Pillow` e `base64` para processar e exibir as artes geradas pelo DALL-E 3.
 
 ### 🖼️ Artefatos e Evidências
-* [Script Completo (app.py)](../../dataapp/app.py)
+* [Script Completo (app.py)](dataapp/app.py)
 * **Print 01:** [Dashboard Principal](dashboard_principal.png)
 * **Print 02:** [Modulo Market Inteligence (Chave API *não* cadastrada)](modo_market_api_nao.png)
 * **Print 03:** [Modo Market Inteligence Opções Banner (Modo Demo)](modo_demo_banner.png)
@@ -26,4 +26,4 @@ Transformei as colunas de "distância" e "faturamento" em argumentos de venda. S
 
 
 ---
-> **🚀 Próximo Passo:** Para rodar esta aplicação e testar as funcionalidades de IA, siga o [Guia de Instalação](../../dataapp/README.md).
+> **🚀 Próximo Passo:** Para rodar esta aplicação e testar as funcionalidades de IA, siga o [Guia de Instalação](dataapp/README.md).
