@@ -14,4 +14,11 @@ dataset/yellow_tripdata_2025-01.parquet
 .ipynb_checkpoints
 
 # Arquivo de configuração do requirements (DataApp)
-Docs/Etapa9/dataap/requirements.in
+Docs/Etapa9/dataapp/requirements.in
+
+# Arquivo .env
+.env
+
+# Arquivo de configuração requirements (DataApp - Case Bônus)
+Docs/EtapaBonus/dataapp/requirements.in
+

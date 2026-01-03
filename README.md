@@ -13,7 +13,8 @@ Este repositório contém a **Prova de Conceito (PoC)** do ciclo de vida de dado
 
 ## 🗺️ Status das Etapas
 - ✅ **Mínimo Avaliado:** Etapas 0, 1, 2, 3, 4, 7 e 9 *(Concluídas)*
-- ⏳ **Próximos Passos:** Etapas 5, 6, 8 e 10 *(Pipeline e IA)*
+- ✅ **Nível Excelente:** Item Bônus - GenAI & Market Intelligence *(Concluído)*
+- ⏳ **Próximos Passos:** Etapas 5, 6, 8 e 10 *(Features, Modelagem e IA)*
 
 ---
 
@@ -44,6 +45,9 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 * **Destaque:** Desenvolvimento de um DataApp interativo e **portável** via **Streamlit**.
 * **Solução:** Criação de um dashboard interativo sobre KPIs relacionados a receita, volume de viagens e distância média entre viagens.
 
+### [📁 Item Bônus: GenAI + Data Apps](./Docs/Etapa_Bonus/README.md)
+* **Destaque:** Transformação de dados em ativos de marketing via LLMs.
+* **Solução:** Integração com **GPT-4** e **DALL-E 3** para geração automática de pitches e banners publicitários.
 ---
 
 ## 💡 Principais Aprendizados Técnicos
@@ -57,4 +61,5 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 1. Os scripts de conversão estão em `Docs/Etapa2/`.
 2. As queries de visualização estão documentadas em `Docs/Etapa7/`.
 3. O Notebook de análise exploratória encontra-se em `Docs/Etapa3_Etapa4/`.
-4. As instruções para execução localmente do DataApp estão disponíveis em `Docs/Etapa9/dataapp/`.
+4. As instruções para execução localmente do DataApp estão disponíveis em `Docs/Etapa9/`.
+5. As instruções para execução localmente do DataApp Bônus estão disponíveis em `Docs/EtapaBonus/`.
