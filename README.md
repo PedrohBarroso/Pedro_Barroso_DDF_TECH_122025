@@ -45,7 +45,7 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 * **Destaque:** Desenvolvimento de um DataApp interativo e **portável** via **Streamlit**.
 * **Solução:** Criação de um dashboard interativo sobre KPIs relacionados a receita, volume de viagens e distância média entre viagens.
 
-### [📁 Item Bônus: GenAI + Data Apps](./Docs/Etapa_Bonus/README.md)
+### [📁 Item Bônus: GenAI + Data Apps](./Docs/EtapaBonus/README.md)
 * **Destaque:** Transformação de dados em ativos de marketing via LLMs.
 * **Solução:** Integração com **GPT-4** e **DALL-E 3** para geração automática de pitches e banners publicitários.
 ---
