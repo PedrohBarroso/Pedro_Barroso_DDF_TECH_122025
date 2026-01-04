@@ -5,7 +5,7 @@
 ### ✍️ Relato Pessoal
 *   **Decisão de Não execução da Etapa 5:** Hoje é dia 04 de janeiro, fim do domingo, a entrega do projeto é amanhã. Ao longo desta semana, eu me dediquei muito a este projeto, com dias contendo jornadas acima das 10h de dedicação, sempre buscando entregar o meu melhor e utilizando todas as ferramentas e materiais disponíveis, desde IA Generativa à artigos e posts em blogs.
 
-    Neste sentido, principalmente para manter um nível de qualidade consistente, eu tomei a decisão de não utilizar a base de dados utilizada na Etapa 5. Não por falta de competência, mas por priorização da entrega de valor realizada no ecossistema de taxis. Eu sei que a base de dados não é desestruturada, porém, a etapa de engenharia de fetaures e extração de insights a partir dos dados brutos, permanece a mesma. O módulo de **Market Intelligence** desenvolvido no [**Item Bônus**](../EtapaBonus/README.md) utiliza das técnicas e implementa de maneira prática, os requisitos solicitados na etapa 5.*
+    Neste sentido, principalmente para manter um nível de qualidade consistente, eu tomei a decisão de não utilizar a base de dados utilizada na Etapa 5. Não por falta de competência, mas por priorização da entrega de valor realizada no ecossistema de táxis. Eu sei que a base de dados não é desestruturada, porém, a etapa de engenharia de features e extração de insights a partir dos dados brutos, permanece a mesma. O módulo de **Market Intelligence** desenvolvido no [**Item Bônus**](../EtapaBonus/README.md) utiliza das técnicas e implementa de maneira prática, os requisitos solicitados na etapa 5.*
 
 ---
 
