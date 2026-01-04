@@ -41,13 +41,13 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 
 * **Foco:** Substituição do dataset `product-search` pelo Yellow-Taxi` para viabilidade técnica.
 
-### 📁 [Etapa 2: Ingestão e Integração](Docs/Etapa2/READMR.md)
+### 📁 [Etapa 2: Ingestão e Integração](Docs/Etapa2/README.md)
 
 * **Destaque:** Pipeline de dados via **Google Sheets** e **Dadosfera**.
 
 * **Aprendizado:** Identificação de corrupção de tipos (VARCHAR vs FLOAT).
 
-### 📁 [Etapas 3 e 4: Exploração e Data Quality](Docs/)
+### 📁 [Etapas 3 e 4: Exploração e Data Quality](Docs/Etapa3_Etapa4/)
 
 * **Destaque:** Análise via **Pandas** (diagnóstico de inconsistências).
 
