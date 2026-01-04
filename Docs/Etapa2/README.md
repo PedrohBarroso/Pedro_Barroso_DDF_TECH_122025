@@ -7,7 +7,7 @@
 
     No script, disponível na pasta de dataset, eu inicialmente limitei o arquivo à 101 mil registros e transformei a base de dados em um dataframe utilizando a biblioteca pandas, após, eu converti o dataframe para .csv e exportei o arquivo .csv.
     
-    Após ter exportado a base de dados no formato .csv, eu importei o arquivo .csv na plataforma Google Sheets, inicialmente, não me apresentou falha ou erro grave, porém, ao final, na etapa 7, eu percebi que iria enfrentar mais um obstáculo. Em resumo, o Google Sheets ao tentar "ajudar", aplicou uma formatação automática nos dados e esta formatação descaracterizou os tipos dos dados originais, como por exemplo, ao importar a base de dados na plataforma Dadosfera através do módulo de "Conexão" e ingestão de dados via o módulo de "Pipelines", algumas colunas que deveriam vir no formato FLOAT ou TIMESTAMP, foram transformadas em VARCHAR (texto).
+    Após ter exportado a base de dados no formato .csv, eu importei o arquivo .csv na plataforma Google Sheets, inicialmente, não me apresentou falha ou erro grave, porém, ao final, na etapa 7, eu percebi que iria enfrentar mais um obstáculo. Em resumo, o Google Sheets ao tentar "ajudar", aplicou uma formatação automática dos dados e esta formatação descaracterizou os tipos dos dados originais, como por exemplo, ao importar a base de dados na plataforma Dadosfera através do módulo de "Conexão" e ingestão de dados via o módulo de "Pipelines", algumas colunas que deveriam vir no formato FLOAT ou TIMESTAMP, foram transformadas em VARCHAR (texto).
 
     Eu identifiquei que a facilidade de integração via ferramenta Sheets pode corromper a integridade de dados e me atrapalhar nas etapas seguintes, porém, não me deixei abater por este desafio e perseverei tentando entregar sempre o meu melhor resultado e tentando aprender ou ter uma visão crítica sobre cada etapa.
 
@@ -23,3 +23,5 @@
 * [Print: Ingestão na Dadosfera](import_base-dados_dadosfera.png)
 * [Print: Pipeline de Dados](pipeline_dados_dadosfera.png)
 * [Print: Análise Descritiva](analise_descritiva2.png)
+
+

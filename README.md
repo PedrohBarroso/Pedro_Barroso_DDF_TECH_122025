@@ -57,7 +57,7 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 
 * **Destaque:** Camada Gold construída via **SQL Nativo**.
 
-* **Solução:** Uso de `TRY_TO_DOUBLE` e `TO_DATE` para sanitarização e geração de KPIs financeiros.
+* **Solução:** Uso de `TRY_TO_DOUBLE` e `TO_DATE` para sanitização e geração de KPIs financeiros.
 
 ### 📁 [Etapa 9: Desenvolvimento de um DataApp](Docs/Etapa9/README.md)
 
