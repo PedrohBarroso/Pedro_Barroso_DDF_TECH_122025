@@ -8,11 +8,11 @@
 
     Porém, mais uma vez, eu não me deixei abater, assim como um bom profissional não fica apegado à ferramenta, eu recorri a biblioteca Pandas para tentar identificar possíveis problemas ou inconsistências nos dados. Eu executei os comandos (df.info() e df.describe()), provando que conheço da teoria e sei o que se deve validar ou identificar, independente da ferramenta ou biblioteca utilizada. Eu identifiquei valores negativos e inconsistências nos dados.
     
-    É válido destacar que após resultados e identificação de inconsistências dos dados via pandas, foi realizado a tentativa de utilização do ambiente de cloud Google Colaboratory, porém ainda sim, permaneceu a inconsistência e conflito entre versões. Foi realizado a tentativa de utilização do framework great-expectations, mas sem sucesso também. Como o Google Colaboraty utiliza as versões atuais do python + bibliotecas, assim como meu ambiente local. Houve um conflito entre versões.*
+    É válido destacar que após resultados e identificação de inconsistências dos dados via pandas, foi realizado a tentativa de utilização do ambiente de cloud Google Collaboratory, porém ainda sim, permaneceu a inconsistência e conflito entre versões. Foi realizada a tentativa de utilização do framework great-expectations, mas sem sucesso também. Como o Google Collaboratory utiliza as versões atuais do python + bibliotecas, assim como meu ambiente local. Houve um conflito entre versões.*
 
 ### Detalhes Técnicos
 - **Frameworks:** Soda.Scan (tentativa), Great-Expectations (Tentativa) e Pandas (execução).
-- **Ambientes de Execução:** Google Colaboratory (Tentativa) e Ambiente Local (Jupyter Notebook)
+- **Ambientes de Execução:** Google Collaboratory (Tentativa) e Ambiente Local (Jupyter Notebook)
 - **Descobertas:** Inconsistências de valores e tipos.
 
 ### 🖼️ Artefatos
@@ -22,3 +22,5 @@
 * [Print: Output df.info()](codigo_df-info.png)
 * [Print: Output df.describe()](codigo_df-describe.png)
 * [Print: Erro por conflito de versão no Google Colab](erro_versao_colab.png)
+
+
