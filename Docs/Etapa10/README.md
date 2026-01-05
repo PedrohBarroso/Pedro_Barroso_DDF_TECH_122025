@@ -14,9 +14,6 @@ A arquitetura atual do cliente, baseada em múltiplos serviços AWS (Lambda, Kin
 * **Custo Oculto:** Alta dependência de engenharia especializada para manter o pipeline de pé.
 * **Latência:** Demora excessiva entre a ingestão do dado e a geração de valor.
 
-![Arquitetura Legada AWS](../../Assets/Etapa10_Diagrama_AWS.png)
-*(Fonte: Diagrama original fornecido pelo cliente)*
-
 ---
 
 ### 🚀 A Solução Proposta (Dadosfera)
