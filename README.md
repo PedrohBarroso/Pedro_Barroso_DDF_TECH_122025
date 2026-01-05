@@ -14,14 +14,10 @@ Este repositório contém a **Prova de Conceito (PoC)** do ciclo de vida de dado
 ---
 
 ## 🗺️ Status das Etapas
-
 - ✅ **Mínimo Avaliado:** Etapas 0, 1, 2, 3, 4, 7 e 9 *(Concluídas)*
-
 - ✅ **Nível Outlier:** Etapas 5 e 6 *(Modelagem e Processamento GenAI)*
-
 - ✅ **Nível Excelente:** Item Bônus - GenAI & Market Intelligence *(Concluído)*
-
-- ⏳ **Próximos Passos:** Etapa 10 *(Vídeo de Apresentação)*
+- ✅ **Entrega Final:** Etapa 10 - Vídeo e Apresentação *(Concluído)*
 
 --- 
 
@@ -83,6 +79,9 @@ Para entender as decisões técnicas, desafios e aprendizados de cada fase, aces
 
 * **Nota:** As competências de processamento de dados via LLMs foram integradas ao módulo de **Market Intelligence** desenvolvidos na **Etapa Bônus**, aplicando GPT-4 para converter contexto operacional em ativos de negócio.
 
+### [📁 Etapa 10: Apresentação Final e Defesa Técnica](Docs/Etapa10/README.md)
+* **Destaque:** Pitch de vendas e defesa de arquitetura.
+* **Solução:** Comparativo técnico demonstrando como a **Dadosfera** reduz custos de engenharia e acelera a adoção de IA (GenAI) em comparação à arquitetura legada AWS.
 
 ---
 
