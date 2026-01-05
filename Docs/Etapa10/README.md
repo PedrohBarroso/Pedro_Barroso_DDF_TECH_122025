@@ -17,7 +17,7 @@ A arquitetura atual do cliente, baseada em múltiplos serviços AWS (Lambda, Kin
 ---
 
 ### 🚀 A Solução Proposta (Dadosfera)
-Nossa PoC comprovou que é possível centralizar todo o ciclo de vida do dado em uma plataforma única ("All-in-One"), eliminando a colcha de retalhos de serviços.
+Nossa PoC comprovou que é possível centralizar todo o ciclo de vida do dado em uma única plataforma ("All-in-One"), eliminando a colcha de retalhos de serviços.
 
 **Principais Ganhos Demonstrados:**
 1.  **Velocidade:** Pipeline de ingestão e qualidade construído em dias, não semanas.
